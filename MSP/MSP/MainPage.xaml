@@ -1,0 +1,328 @@
+﻿<Page
+    x:Class="MSP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MSP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="OldLace">
+        <StackPanel >
+            <TextBlock Text=" MethysicalSexPosition" Height="85" Foreground="Black" FontSize="38" FontFamily="Arohi"></TextBlock>
+        </StackPanel>
+        <ListBox Name="MSPListBx" Margin="10,71,0,0" SelectedItem="{Binding }" Background="OldLace"  SelectionChanged="lbSelectionChanged">
+          
+            
+             <ListBoxItem >
+
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/avalambitaka.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock  Text="   Hanging Rose" FontSize="24" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/bhramara.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock  Text="Mythical Mariana Trench" FontSize="24" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/devabandha.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Sprawling In The Net" FontSize="24" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/Dhenuka.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="The Master With His Slave" FontSize="24" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/dola.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock  Text="Love Of The Ape Man" FontSize="24" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/Dolita.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Love Of Spider" FontSize="24" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/gramya.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Mythical Slavery" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/Hirana.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Mythical Pendulum" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/Kshudgaga.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Face Your Love" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/lilasana.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Mythical V" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/madandhvaja.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Mythical Reincarnation" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/manmathpriya.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Forbidden Rose" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/marjara.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Mouth Of A Mule" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/Padma.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Tsunamycal  Love" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/ratipasha.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Optical Radiation" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/ratisundara.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Pleasing The Aphrodite's" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/samputa.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Mythical Enlightenment" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/Samudamsha.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="The Reverse T" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/sthita.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Slanting Chocolate" FontSize="22" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/svanaka.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="The Excavator" FontSize="32" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/Tripadam.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Ride With Sleeping Rose" FontSize="32" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/uthkanta.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="The mythical juice evolution" FontSize="32" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/vadavaka.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="The Sitting Angel" FontSize="32" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/virsha.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Devils Paradise" FontSize="32" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+
+            <ListBoxItem >
+                <StackPanel  Orientation="Horizontal" Height="72"  >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Background/rowBackground.png"/>
+                    </StackPanel.Background>
+                    <Image Source="NewFolder1/vyomapada.png" Height="103" Width="99" Margin="0,0,0,-31"/>
+                    <TextBlock Text="Mythical Sky Scrapper" FontSize="32" Height="105" Width="363" FontFamily="Aharoni" Foreground="#FF0C0101"  Margin="0,16,0,-49.333"  >
+                    </TextBlock>
+                    <StackPanel Width="100"/>
+                </StackPanel>
+            </ListBoxItem >
+            
+
+        </ListBox>
+    </Grid>
+</Page>
